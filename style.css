@@ -1,5 +1,8 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+/* obecne styly pro stranku */
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -7,16 +10,37 @@ html {
   font-family: sans-serif;
 }
 
-.container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #3b264d;
+
+}
+
+/* obecne styly pro elementy */
+p, h2, h4 {
+  text-align: center; 
+  color: #ffffff;
+  display: block;
+}
+
+/* styly pro navigaci */
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 40px;
+  background-color: #3b264d;
+  box-shadow: 3px 4px 10px #00000040;
 }
 
 ul {
@@ -24,11 +48,77 @@ ul {
   padding: 0;
   margin: 20px auto;
   max-width: 600px;
+  display: flex;
+  align-items: center;
 }
+
 li {
   margin-bottom: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
+
 a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 1.5rem;
 }
+
+a:hover {
+  color: #9c2780;
+}
+
+
+
+/* styly pro stranku O NAS */
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.team_member__image {
+  width: 10em;
+  height: auto;
+  text-align: center;
+}
+
+.team_member {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+}
+
+.contacts img {
+  width: 1.5rem;
+}
+
+.team_member__name {
+  margin-top: 10px;
+  margin-bottom: 5px; 
+}
+
+.team_member__about {
+  margin-bottom: 20px; 
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+}
+
+
+.contacts a {
+margin: 5px;
+}
+/* } + sehnat a vymenit ikony za bile? */
+
+
+
+/* tady konci styly pro stranku O NAS */
