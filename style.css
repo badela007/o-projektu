@@ -12,3 +12,23 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
