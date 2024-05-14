@@ -24,8 +24,16 @@
       </header>
       <main>
         <div class="container">
-            <h2 class="aboutUsTitle">Ahoj!</h2>
-            <p class="aboutUsText">Jsem kojoradce</p>
+            
+            <form id="nameForm" class="input-Container">
+              <input  id="nameInput" class="name-input" placeholder="Jak se jmenuješ?">
+              <button id="from-btn" class="button-input" type="submit">ok</button>
+            </form>
+
+            <div id="greetContainer" class="greet-container">
+              <div id="greetText"></div>
+              <!-- Sem se vlozi text po zadani jmena a submitu -->
+            </div>
           
         </div>
         </main>
