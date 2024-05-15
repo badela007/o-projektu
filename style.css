@@ -33,17 +33,22 @@ h4 {
   height: auto;
   padding-left: 10px;
   padding-top: 0;
+  margin-top: 5px;
 }
 
+
+  
 header {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   padding: 10px;
   margin-bottom: 40px;
   background-color: #3b264d;
   box-shadow: 3px 4px 10px #00000040;
+
 }
+
 
 ul {
   list-style-type: none;
@@ -52,13 +57,14 @@ ul {
   max-width: 600px;
   display: flex;
   align-items: center;
+  
 }
 
 li {
   margin-bottom: 10px;
   margin-right: 20px;
   display: flex;
-  align-items: center;
+  
 }
 
 a {
